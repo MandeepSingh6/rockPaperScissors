@@ -46,10 +46,12 @@ const playRound = (playerSelection, computerSelection) => {
     result[0].innerText = "You Won the game";
     playerScore = 0;
     computerScore = 0;
+    counter = 0;
   } else if (computerScore >= 5) {
     result[0].innerText = "You Lost the game";
     computerScore = 0;
     playerScore = 0;
+    counter = 0;
   }
 };
 
